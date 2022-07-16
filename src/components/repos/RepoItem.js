@@ -11,8 +11,6 @@ function RepoItem({ repo }) {
     stargazers_count,
   } = repo;
 
-  console.log(repo);
-
   return (
     <div className="mb-2 rounded-md card bg-base-200 hover:bg-base-300">
       <div className="card-body">
